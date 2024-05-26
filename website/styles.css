@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7c7c7;
+    padding: 20px;
+}
+
+.job-listing {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.job-listing:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.job-company {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-location {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.job-details {
+    display: none;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00c7eae3;
+    border-bottom: #00c7eae3;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 60px; /* Adjust this value to fit the height of the header */
+    
+}
+
+.logo {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-size: x-large;
+    border-right-style: solid;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+    background-color: #00c7eae3;
+    color: navy;
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+header {
+    background-color: #979797;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    flex: 1;
+    text-align: right;
+}
+
+.btn-post-job,
+.btn-login,
+.btn-logout,
+.login-button,
+.register-button {
+    background-color: #04d6fb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button {
+    background-color: #04D7FB;
+    color: #fff;
+    border: none;
+    padding: 7px 7px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-post-job:hover,
+.btn-login:hover,
+.btn-logout:hover,
+.login-button:hover,
+.register-button:hover {
+    background-color: #03C9E0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #04D7FB;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #03C9E0;
+}
